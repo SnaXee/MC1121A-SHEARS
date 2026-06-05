@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {background-color:#E8DDCA;}
+
+#Logo {float:left;} 
+
+#Media {float:right;}
+
+#File {clear:both;
+	   font-family:"Times New Roman";
+	   word-spacing:12px;
+	   border-top:solid black 2px;
+	   border-bottom:solid black 2px;
+       padding:12px 0px 12px 0px;
+       margin:12px 0px 12px 0px;}
+
+#File a  {color:black;}
+#File a:hover {color:orange;}
+
+#Text1 h1 {color:orange;}
+#Text1    {float:left; width:600px;}
+
+#Text2 {width:280px;}
+#Text2 {float:right;
+        margin:12px 1px 0px 12px;}
+#Text2 h3{color:orange}
+
+
+
+#Copyright {clear:both;}
+
+#Box{width:900px;background-color:white;margin:0px auto 0px auto;}
+
+
+
+
+
+
+
+

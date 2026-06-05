@@ -1,0 +1,299 @@
+/* Timothy Framework - www.timothyframework.com */
+/* This work is licensed under the MIT License - http://www.opensource.org/licenses/mit-license.php */
+
+
+/* Color Legend */
+
+
+/* Reset */
+
+html, body { margin: 0; padding: 0; border: 0; background: transparent; font-size:10px; }
+
+div, span, article, aside, footer, header, hgroup, nav, section,
+h1, h2, h3, h4, h5, h6, p, blockquote, a, ol, ul, li, 
+table, tr, th, td, tbody, tfoot, thead {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	}
+
+img 	{ margin:0; padding:0; border:0; }
+
+table, tr, th, td, tbody, tfoot, thead {
+	margin: 0; padding: 0; border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	}
+	
+table { border-collapse: collapse; border-spacing: 0; }
+	
+input, select, textarea, form, fieldset {
+	margin: 0; padding: 0; border: 0;
+	}
+
+article, aside, dialog, figure, footer, header, hgroup, nav, section { 
+	display:block; }
+
+h1, h2, h3, h4, h5, h6, p, li, blockquote, td, th, a, caption, em, strong, strike { 
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:100%;
+	font-weight: normal;
+	font-style: normal;
+	line-height: 100%; 
+	text-indent: 0;
+	text-decoration: none;
+	text-align: left;
+	color: #000;
+	}
+
+ol, ul { list-style: none; }
+
+
+/* Global */
+
+html 	{	}
+body	{background-color:#E8DDCA;}
+
+
+
+/* Headings */
+
+h1, h2, h3, h4, h5, h6 { font-weight: bold; color: #000; }
+
+h1 { font-size:24px; }
+h2 { font-size:20px; }
+h3 { font-size:16px; }
+h4 { font-size:14px; }
+h5 { font-size:14px; }
+h6 { font-size:14px; }
+
+h1 img, h2 img, h3 img, h4 img, h5 img, h6 img { margin: 0; }
+
+
+
+/* Text Elements */
+
+p           	{ color:#000; font-size:12px; line-height:150%;  }
+p .left		{ margin: 1.5em 1.5em 1.5em 0; padding: 0; }
+p .right 	{ margin: 1.5em 0 1.5em 1.5em; padding: 0; }
+
+a           	{   }
+a:link		{ color: #0044FF;  }
+a:visited	{ color: #0044FF;  }
+a:active	{ color: #000;  }
+a:focus		{ color: #666;  }
+a:hover     	{ color: #f00;  }
+
+blockquote  	{ color:#000; font-size:12px; }
+
+strong      	{ font-weight: bold; }
+em		{ font-style: italic; }
+
+/* Images */
+
+
+
+/* Lists */
+
+ul          	{  }
+ol          	{ list-style-type:decimal; }
+
+ul li		{ color:#000; font-size:12px; }
+ol li	     	{ color:#000; font-size:12px; }
+
+dl          	{  	}
+dt       	{  	}
+dd          	{ 	}
+
+
+
+/* Tables */
+
+table       	{ width:100%; }
+
+tr				{	}
+.odd			{ background-color:#eee; }
+.even			{ background-color:#fff; }
+
+th          	{ font-weight: bold; }
+thead, th    	{ background: #ccc; }
+
+tbody			{   }
+
+th,td,caption 	{ 	}
+caption 		{ 	}
+
+tfoot       	{	}
+.tfooter		{ background-color:#ccc; text-align:center; font-style:italic; }
+
+caption     	{ background: #efefef; }
+
+
+
+/* Miscellaneous */
+
+sup, sub    	{ line-height: 0; }
+
+abbr, acronym   { border-bottom: 1px dotted #666; }
+address     	{ 	 }
+del         	{ background:#FFCECE; color:#f00; }
+
+code, pre		{ background-color:#FF9; padding:2px 0px; margin:4px 25px;
+					font-family:"Courier New", Courier, monospace; font-size:12px; font-weight:normal; line-height:150%;	}
+
+
+/* Containers */
+
+#Logo 			    	{  float:left; margin-bottom: 25px; }
+
+#Icon	 			{  float:right; }
+
+#Navigation  			{  clear:both;font-size:15px; word-spacing : 15px; border-top: solid #000 1px; border-bottom: solid #000 1px; padding: 15px;  }
+
+#Navigation a:link		{ color: #000;  }
+#Navigation a:visited		{ color: #f90;  }
+#Navigation a:active		{ color: #000;  }
+#Navigation a:focus		{ color: #666;  }
+#Navigation a:hover     	{ color: #f90;  }
+
+#Banner 			{ margin: 10px 0px;}
+
+#HeaderTitle h1			{ color:#f90; border-bottom: solid #7B7B7B 1px; padding:15px;}
+
+#BodyText1        		{ padding:15px; font-size: 12px; font-family:arial }
+
+#Gambar img			{ border: solid #7b7b7b 1px; padding:5px; margin: 10px;}
+
+#BodyText2 			{ padding:15px; font-size : 12px; font-family:arial }
+
+#RightBodyText 			{ width: 250px; float:right; font-family:arial; margin-top : 10px;}
+#RightBodyText h2,h3,h4,p 	{ margin-bottom : 10px;}
+#RightBodyText h4 		{color : #f90;}
+
+#Footer 			{ clear:both; border-top : solid #7b7b7b 1px; margin : 10px 0px;}
+#Footer p			{ text-align: center; padding : 10px 0px}
+
+#BodyWrapper			{ width: 650px; float:left; }
+
+
+#Wrapper 			{ margin: 0 auto; width:900px; background-color: white; }
+
+#Wrapper2 			{ margin: 0 auto; width:950px; background-color: white; }
+
+#Box1 				{ float:left; width : 250px; border-top : solid #5f2f00 15px; background-color:#e7e7e7; margin-right : 35px; margin-bottom:25px;}
+
+#Box2 				{ float:left; width : 250px; border-top : solid #685024 15px; background-color:#e7e7e7; margin-right : 35px; margin-bottom:25px;}
+
+#Box3 				{ float:left; width : 250px; border-top : solid #375230 15px; background-color:#e7e7e7; margin-right : 35px; margin-bottom:25px;}
+
+#BoxContainer			{ padding-left: 45px;}
+#BoxContainer a			{font-size: 13px; font-family: Arial; padding-left: 10px;}
+#BoxContainer h3		{font-family: Arial; padding-left: 10px; padding-top: 25px;}
+#BoxContainer p			{font-family: Arial; padding-left: 10px;}
+
+/* Layout Extra */
+
+
+
+
+/* Navigation Extra */
+
+
+
+/* Forms */
+
+form ol { list-style-type:none; }
+
+form 	{ text-align:left; margin:20px;	}
+
+label 	{ 
+		float: left; width: 150px; margin-top:5px;
+		text-align:right; display:block; background:none; font-weight:bold;
+		}
+	
+submit	{ background:none; 	}
+
+input 	{ 
+		width: 280px; margin:0 0 16px 10px;
+		border:1px #bbb solid; padding:5px; background:none; 
+		}
+		
+input:focus, textarea:focus	{ background-color:#BFEBFF; }
+
+textarea {
+		width: 280px; height: 150px; margin:0 0 16px 10px;
+		border:1px #bbb solid; padding:5px; background:none; 
+		}
+
+select { margin-bottom:20px;	}
+	
+.month { margin-left:155px;	}
+
+.submit {
+		width:90px; height:25px;
+		margin-left:160px;
+		font-size:12px;
+		}
+
+br		{ clear: left; 	}
+
+.clear	{ clear:both; }
+
+
+/* Miscellaneous  */
+
+.copyright-text	{ font-size:80%; font-style:italic; color:#333; }
+.footer-text	{ font-size:80%; font-style:normal; color:#666; }
+
+.title			{ font-size:18px; font-weight:bold; color:#333;  }
+.subtitle		{ font-size:14px; font-style:italic; color:#333;  }
+
+.artist			{ font-size:16px; font-weight:bold; color:#333;  }
+.author			{ font-size:14px; font-weight:bold; color:#555;  }
+.editor			{ font-size:14px; font-style:italic; color:#555;  }
+
+.pub-date		{ font-size:10px; font-style:italic; color:#555; }
+.article-date	{ font-size:10px; font-style:italic; color:#555;  }
+.location		{ font-size:10px; font-style:italic; color:#555;  }
+
+.float-right	{ float:right; }
+.float-left		{ float:left; }
+.clear			{ clear:both; }
+
+.hide			{ display:none; }
+.block			{ display:block; }
+.inline			{ display:inline; }
+
+.first			{ font-weight:bold; }
+.last			{ font-weight:bold; }
+.left			{ font-weight:bold; text-align:left; }
+.right			{ font-weight:bold; text-align:right; }
+
+.added      	{ background:#D7D7FF; }
+.removed    	{ background:#FFCECE; color:#f00; }
+.changed		{ background:#FFB; }
+
+
+/* Success, info, notice and error/alert boxes - from Blueprint CSS Framework */
+
+.error, .alert, .notice, .success, .info {
+	padding: 0.8em; margin-bottom: 1em; border: 2px solid #ddd; }
+
+.error, .alert 	{ background: #fbe3e4; color: #8a1f11; border-color: #fbc2c4; }
+	
+.notice			{ background: #fff6bf; color: #514721; border-color: #ffd324; }
+	
+.success   		{ background: #e6efc2; color: #264409; border-color: #c6d880; }
+	
+.info 			{ background: #d5edf8; color: #205791; border-color: #92cae4; }
+	
+.error a 	{ color: #8a1f11; }
+.alert a 	{ color: #8a1f11; }
+	
+.notice a   { color: #514721; }
+.success a  { color: #264409; }
+.info a		{ color: #205791; }
+
+
